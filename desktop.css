@@ -1,0 +1,19 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1.5fr 1.5fr;
+  grid-template-rows: 1fr 5fr 3fr 3fr 2fr;
+  grid-template-areas: 
+  'header menu menu menu'
+  'hero hero hero hero'
+  'main main . image'
+  'main main . extra'
+  'banner banner banner banner'
+  ;
+}
